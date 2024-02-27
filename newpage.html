@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Your Feelings</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        textarea {
+            width: 300px;
+            height: 100px;
+        }
+
+        #note {
+            margin-top: 10px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <p>Write what makes you feel sad:</p>
+    
+    <textarea id="sadTextArea"></textarea>
+
+    <div id="note">
+        <p>This will go to the trash, don’t worry :)</p>
+    </div>
+    <input type="button" value="Submit" onclick="showMessage()">
+    <script>
+        function showMessage() {
+            alert("When you finish talk to me!");
+        }
+    </script>
+</body>
+</html>
